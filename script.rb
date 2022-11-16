@@ -11,7 +11,6 @@ def bubble_sort(array)
             next
         else
             bubble_sort!(sorted)
-            sorted
         end
     end
     sorted
