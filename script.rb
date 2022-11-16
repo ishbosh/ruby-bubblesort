@@ -9,7 +9,7 @@ def bubble_sort(array)
         end
         if value <= next_value
             next
-        else
+        elsif index == sorted.length - 2
             bubble_sort!(sorted)
         end
     end
@@ -26,7 +26,7 @@ def bubble_sort!(array)
         end
         if value <= next_value
             next
-        else
+        else index == array.length - 2
             bubble_sort!(array)
         end
     end
